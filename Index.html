@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Raghupati Jha — Data Engineer</title>
+  <meta name="description" content="Raghupati Jha — Data Engineer. Azure | Databricks | PySpark | SQL" />
+  <link rel="icon" href="data:," />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- background particle canvas -->
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">RJ</div>
+        <div>
+          <div class="name">Raghupati Jha</div>
+          <div class="subtitle">Data Engineer • Tredence</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-card reveal">
+        <h1>Hi — I’m <span class="accent">Raghupati</span>.</h1>
+        <div id="typewriter" class="typewriter" aria-live="polite"></div>
+        <p class="lead">I design and build resilient data pipelines using Azure, Databricks and PySpark.</p>
+
+        <div class="cta-row">
+          <a id="resume-link" class="btn" href="assets/resume.pdf" download>Download Resume</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/raghupati-jha-5473231a0/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+
+        <div class="meta-row">
+          <div class="counter" title="Experience since 15 June 2023">
+            <span class="muted">Experience</span>
+            <b id="years">0y</b> <span id="months">0m</span> <span id="days">0d</span>
+          </div>
+          <div class="muted">Kolkata, India</div>
+        </div>
+      </div>
+
+      <aside class="profile-card reveal" aria-label="Profile">
+        <!-- Replace this file with your profile image (assets/profile.jpg) -->
+        <img id="profile-img" src="assets/profile.png" alt="Raghupati Jha — profile">
+        <div class="profile-name">Raghupati Jha</div>
+        <div class="profile-role">Associate Data Engineer — Tredence (Joined Aug 2025)</div>
+        <div class="profile-prev small">TCS — role ended 8 Aug 2025</div>
+
+        <div class="profile-actions">
+          <a class="btn ghost" href="mailto:Raghupati.1si18ec073@gmail.com">Email</a>
+          <a class="btn ghost" href="https://github.com/raghu-97" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+      <div class="section-head"><h2>About</h2></div>
+      <div class="card">
+        <p class="muted">
+            I work with large-scale data pipelines, transforming raw data into meaningful insights using the Azure ecosystem. My role involves integrating data from multiple sources—SharePoint,SAP, Salesforce and SFTP feeds—into Azure Data Lake Storage Gen2 (ADLS Gen2).
+
+            Using Azure Data Factory (ADF), I orchestrate data movement, and in Azure Databricks, I implement the medallion architecture (Bronze → Silver → Gold) to clean, transform, and optimize datasets. The refined data is stored in Delta Tables or used to populate analytical tables. On top of this, I design efficient views that power interactive Power BI reports, enabling data-driven decision-making.
+            
+            Beyond development, I handle real-time issue resolution via ServiceNow and Azure DevOps Boards, ensuring seamless data workflows. My expertise spans ETL automation, cloud data engineering, performance tuning, and analytics, driving scalable and efficient data solutions.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal">
+      <div class="section-head"><h2>Skills</h2></div>
+      <div class="cards-grid">
+        <div class="card">
+          <h3>Technical</h3>
+          <div class="skills">
+            <div class="skill">
+              <div class="skill-row"><span>PySpark</span><span>85%</span></div>
+              <div class="bar"><i data-width="85%"></i></div>
+            </div>
+            <div class="skill">
+              <div class="skill-row"><span>Azure Data Factory</span><span>82%</span></div>
+              <div class="bar"><i data-width="82%"></i></div>
+            </div>
+            <div class="skill">
+              <div class="skill-row"><span>SQL & Data Modeling</span><span>88%</span></div>
+              <div class="bar"><i data-width="88%"></i></div>
+            </div>
+            <div class="skill">
+              <div class="skill-row"><span>Databricks & Delta Lake</span><span>80%</span></div>
+              <div class="bar"><i data-width="80%"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Tools</h3>
+          <ul class="muted">
+            <li>Azure Data Factory, Azure Data Lake Storage</li>
+            <li>Databricks, Delta Lake, Unity Catalog</li>
+            <li>Git, CI/CD, Azure DevOps</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Process</h3>
+          <ul class="muted">
+            <li>Agile / Scrum, sprint planning</li>
+            <li>Code review, CI pipelines</li>
+            <li>Monitoring and incident triage</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section reveal">
+      <div class="section-head"><h2>Certifications</h2></div>
+
+      <div class="cert-grid">
+        <div class="cert-card" role="button" tabindex="0"
+             data-title="Databricks Certified Data Engineer Associate"
+             data-desc="Databricks Certified Data Engineer Associate"
+             data-img="assets/certs/databricks.png"
+             >
+          <img src="assets/databricks.png" alt="Databricks Certified Data Engineer Associate">
+          <div class="cert-title">Databricks Cert: Data Engineer Associate</div>
+        </div>
+
+        <div class="cert-card" role="button" tabindex="0"
+             data-title="Microsoft Certified: Azure Data Engineer Associate"
+             data-desc="Microsoft Certified: Azure Data Engineer Associate"
+             data-img="assets/dp203"
+             >
+          <img src="assets/dp203.png" alt="Microsoft Certified Azure Data Engineer Associate">
+          <div class="cert-title">Microsoft: Azure Data Engineer Associate</div>
+        </div>
+
+        <div class="cert-card" role="button" tabindex="0"
+             data-title="Microsoft Certified: Azure Data Fundamentals (DP-900)"
+             data-desc="Microsoft Certified: Azure Data Fundamentals — DP-900"
+             data-img="assets/certs/dp900.png"
+             >
+          <img src="assets/dp900.png" alt="Microsoft Azure Data Fundamentals DP-900">
+          <div class="cert-title">Microsoft: DP-900</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section reveal">
+      <div class="section-head"><h2>Experience</h2></div>
+      <div class="card timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <div class="job-title">Associate Data Engineer — Tredence</div>
+            <div class="job-meta">Joined Aug 2025 — Present • Kolkata</div>
+            <ul class="muted">
+              <li>Developing Azure-based ingestion & transformation pipelines.</li>
+              <li>Implementing Delta Lake medallion architecture & CI/CD for Databricks.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot alt"></div>
+          <div class="timeline-body">
+            <div class="job-title">Data Engineer — Tata Consultancy Services</div>
+            <div class="job-meta">Jun 2023 — Aug 8, 2025</div>
+            <ul class="muted">
+              <li>Built ADF pipelines, Databricks jobs and SQL-based reporting for eCommerce.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section reveal">
+      <div class="section-head"><h2>Education</h2></div>
+      <div class="cards-grid">
+        <div class="card">
+          <strong>B.E. — Siddaganga Institute of Technology</strong>
+          <div class="muted small">2018 — 2022</div>
+        </div>
+        <div class="card">
+          <strong>12th Grade</strong>
+          <div class="muted small">State Board — Fisrt Div</div>
+        </div>
+        <div class="card">
+          <strong>10th Grade</strong>
+          <div class="muted small">9.6 CGPA</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section reveal">
+      <div class="section-head"><h2>Contact</h2></div>
+      <div class="card footer">
+        <div>
+          <strong>Email</strong>
+          <div class="muted small">Raghupati.1si18ec073@gmail.com</div>
+        </div>
+        <div>
+          <strong>LinkedIn</strong>
+          <div><a href="https://www.linkedin.com/in/raghupati-jha-5473231a0/" target="_blank" rel="noopener">linkedin.com/in/raghupati-jha-5473231a0</a></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer small">© <span id="year"></span>Copyright2025raghu</footer>
+  </div>
+
+  <!-- Certification modal (hidden by default) -->
+  <div id="cert-modal" class="cert-modal" aria-hidden="true" role="dialog">
+    <div class="cert-modal-inner">
+      <button id="cert-close" class="cert-close" aria-label="Close">&times;</button>
+      <img id="cert-img" src="" alt="">
+      <h3 id="cert-title"></h3>
+      <p id="cert-desc" class="muted"></p>
+      <a id="cert-link" class="btn" href="#" target="_blank" rel="noopener">View verification</a>
+    </div>
+  </div>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
